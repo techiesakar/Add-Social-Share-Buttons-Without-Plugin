@@ -1,0 +1,31 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+ul.social-share-container {
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+}
+
+.social-share-container li:not(:last-child) {
+    margin-right: 4px;
+}
+
+.social-share-container .sharebtn {
+    text-decoration: navajowhite;
+}
+
+.social-share-container .facebook-btn {
+    color: #4267b2;
+}
+
+.social-share-container .twitter-btn {
+    color: #1c9cea;
+}
+
+.social-share-container .linkedin-btn {
+    color: #0074af;
+}
+
+.social-share-container .pinterest-btn {
+    color: #b80214;
+}
