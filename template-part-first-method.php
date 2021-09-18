@@ -3,7 +3,7 @@
 
 <?php 
 $postURL = urlencode(get_the_permalink());
-$postTitle = urlencode(get_the_title());
+$postTitle = get_the_title();
 $postIMG = urlencode(get_the_post_thumbnail_url());
 $facebookURL = 'https://www.facebook.com/sharer.php?u=';
 $twitterURL = 'https://twitter.com/share?url=';
